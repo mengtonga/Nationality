@@ -1,0 +1,11 @@
+<view class="box">
+	<view class="tit"><text>{{font}}</text></view>
+  <block>
+  	<view wx:for="{{nation_inform}}" wx:key="" wx:if="{{item.key == font}}">
+      <view class='con_font'><text decode="{{true}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{item.introduce}}</text></view>
+    </view>
+  </block>
+</view>
+<view class="pic">
+  <image src="https://662d-f-1fcd37-1258949571.tcb.qcloud.la/民族人物简笔画2.png" mode='WidthFix'></image>
+</view>

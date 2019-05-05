@@ -1,0 +1,29 @@
+<view class='Dance'>
+    <view class='Dance_1'>
+        <view class='Dance_1_1'>
+            <image src="{{image1}}"></image>
+        </view>
+        <view class='Dance_1_2'>
+            <view class='Dance_1_2_1'>{{text_title1}}</view>
+            <view class='Dance_1_2_2'>{{text1}}</view>
+        </view>
+    </view>
+    <view class='Dance_2'>
+        <view class='Dance_2_1'>
+            <view class='Dance_2_1_1'>{{text_title2}}</view>
+            <view class='Dance_1_2_2'>{{text2}}</view>
+        </view>
+        <view class='Dance_2_2'>
+            <image src="{{image2}}"></image>
+        </view>
+    </view>
+    <view class='Dance_3'>
+        <view class='Dance_3_1'>
+            <image src="{{image3}}"></image>
+        </view>
+        <view class='Dance_3_2'>
+          {{text_title3}}
+        </view>
+         <view class='Dance_3_3'>{{text3}}</view>
+    </view>
+</view>

@@ -1,0 +1,149 @@
+/* pages/nation/nation.wxss */
+.background{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+	opacity: 0.9;
+}
+.background image{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+}
+.abTopic{
+	text-align: center;
+  width:100%;
+  height:50rpx;
+}
+.abTopic text{
+  font-size:40rpx;
+}
+.abText{
+  width:100%;
+  height:380rpx;
+  margin:10rpx 0;
+  overflow: hidden;
+}
+.abText text{
+  display: -webkit-box;
+  font-size:35rpx;
+  line-height:54rpx;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp:7;
+  overflow: hidden;
+  text-overflow:ellipsis;
+}
+.abdetail{
+  width:100%;
+  height:40rpx;
+  position: absolute;
+  bottom:60rpx;
+  font-size: 30rpx;
+}
+.abdetail text{
+  font-size:30rpx;
+}
+.pup{
+  width:100%;
+  height:60rpx;
+  line-height: 60rpx;
+  position: absolute;
+  bottom:0rpx;
+  left:0rpx;
+}
+/* 民族简介的样式 */
+.abstract{
+  width:100%;
+  height:570rpx;
+	position: absolute;
+	padding: 20rpx;
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.685);
+	color: white;
+	text-align: center;
+  z-index: 3;
+}
+/* 收起动画 */
+.picUp{
+	animation: picup 0.5s linear;
+	animation-fill-mode:forwards;
+
+}
+@keyframes picup{
+	from{
+		top:0;
+	}
+  to {
+    top:-510rpx;
+  }
+}
+/* 展开动画 */
+.unfold{
+	animation: unfold 0.8s linear;
+	animation-fill-mode:forwards;
+}
+@keyframes unfold{
+	from{
+		top:-505rpx;
+	}
+  to {
+    top: 0;
+  }
+}
+.cloths{
+	position: absolute;
+  width:100%;
+  height:400rpx;
+  bottom:20rpx;
+}
+.cloth{
+	bottom: 50rpx;
+	height: 400rpx;
+	width:23%;
+  float: left;
+	background: white;
+	border-radius: 50px;
+  margin:0rpx 1%;
+}
+.cloth image{
+	height:90%;
+  width:100%;
+	border: 3px dotted #D63014;
+	border-radius: 15px;
+	box-sizing: border-box;
+}
+.nagtiv{
+	position: absolute;
+	top: 25vh;
+  left:50%;
+  margin:0px -290rpx;
+}
+.nagtiv:before,.nagtiv:after{
+	content:"";
+	display:block; 
+	border-width:40rpx; 
+	position:absolute; 
+  bottom:-75rpx;
+	left:260rpx;
+	border-style:solid dashed dashed;
+	border-color:#D63014 transparent transparent;
+	font-size:0; 
+}
+.nagtiv:after{
+	bottom:-60rpx;
+	border-color:#FFF transparent transparent;
+} 
+.go{
+	padding:40rpx;
+	width: 500rpx;
+	height:200rpx;
+	border-radius:200rpx;
+	border: 10rpx solid #D63014;
+	line-height: 30px;
+	background: white;
+	box-sizing: content-box;
+	font-size:40rpx;
+}
