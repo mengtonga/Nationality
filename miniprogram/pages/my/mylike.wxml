@@ -1,0 +1,23 @@
+<!--pages/my/mylike.wxml-->
+<view class = "box">
+	<view 
+			class = "collect" 
+			wx:for="{{pic}}"
+			bindtap="click"
+			data-index="{{index}}">
+		<view class= "inTop">
+			<view class="pic"  >
+				<image class = "image"src="{{item.pic}}" style="display:{{item.pig}}"></image>
+			</view>
+			<view class = "information">
+				<view class = "text">{{item.content}}</view>
+			</view>
+		</view>
+		<view class = "inBottom">
+			<view class = "name">
+					{{item.name}}  {{item.time}} {{item.adress}}
+			</view>
+		</view>
+	</view>
+
+</view>

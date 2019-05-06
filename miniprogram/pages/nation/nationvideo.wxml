@@ -1,0 +1,22 @@
+<block>
+<view class='custom'wx:for="{{nationCu}}" wx:if="{{item.key==font}}" wx:key="">   
+    <view class='custom_1'>
+        <video src="{{src}}" style='width:96%;height:380rpx;margin-left:15rpx;margin-top:26rpx;' custom-cache="{{false}}"></video>
+    </view>
+    <view class='custom_2' >
+        <view class='or-spacer'> 
+			    <view class="mask"></view>
+			    <span><i>{{title}}</i></span>
+        </view>
+        <view class='custom_2_2'>
+           {{text1}}
+        </view>
+        <view class='custom_2_3'>
+          {{text2}}
+        </view>
+        <view class='custom_2_4'>
+           {{text3}}
+        </view>
+    </view>
+</view>
+</block>

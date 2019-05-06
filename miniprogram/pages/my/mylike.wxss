@@ -1,0 +1,85 @@
+/* pages/my/mylike.wxss */
+ /* @import "/template/mylike.wxss"; */
+
+.box{
+	padding: 10px;
+	/* background: pink; */
+}
+.collect{
+	overflow: hidden;
+	position: relative;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-bottom: 10px;
+	background: #fff;
+	border-radius: 5px 5px;
+	color: #000;
+}
+.inTop{
+	display: flex;
+	flex-wrap: nowrap;
+	width:100%;
+	vertical-align: middle;
+}	
+.image{
+	/* float: left; */
+	margin-right: 20px;
+	width: 80px;
+	height: 80px;
+	border-radius: 5px;
+	background: pink;	
+	vertical-align: middle;
+	/* border: 1px solid red; */
+}
+
+.information{
+	/* float: left; */
+	box-sizing: border-box;
+	word-break: break-all;
+	overflow: hidden;
+	width: 100%;
+	/* height: 70px; */
+	/* background: palevioletred; */
+}
+.topic{
+	font-size: 16px;
+	text-overflow:ellipsis;
+  display: -webkit-box;/*自适应盒子*/
+	overflow: hidden;
+	margin-top: 10px;
+	color: #353535;
+	/* background: gainsboro; */
+  word-break: break-all;/*允许在单词内换行*/
+  line-height: 45rpx;
+-webkit-line-clamp: 2;/*此处为1行,如果是两行就改成2*/
+-webkit-box-orient: vertical;
+}
+.text{
+	text-overflow:ellipsis;
+  display: -webkit-box;/*自适应盒子*/
+	overflow: hidden;
+	font-size: 13px;
+	color: #353535;
+	/* background: gainsboro; */
+  word-break: break-all;/*允许在单词内换行*/
+  line-height: 45rpx;
+-webkit-line-clamp: 2;/*此处为1行,如果是两行就改成2*/
+-webkit-box-orient: vertical;
+}
+
+/*时间等信息 */
+.inBottom{
+	display: block;
+	margin-top:15px;
+	width: 100%;
+	/* background: yellow; */
+	color: #b2b2b2;
+	font-size: 11px;
+}
+
+.name{
+	margin-right: 5px;
+	display: block;
+}
+
+

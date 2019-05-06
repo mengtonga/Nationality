@@ -1,0 +1,15 @@
+<!--pages/my/mylikes.wxml-->
+<view class = "box">
+	<view class = "information">{{name}}</view>
+	<view class = "content">
+		<!-- <text class = "topic">你好吗</text> -->
+		<text class = "essay">{{content}}</text>
+		<view class = "allpic">
+			<image 
+						bindtap="previewImage" 
+						class ="picture" 
+						src='/images/head.jpg'
+						></image>
+		</view>
+	</view>
+</view>
